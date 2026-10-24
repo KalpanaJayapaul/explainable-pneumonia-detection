@@ -1,0 +1,51 @@
+
+# Frontend dependencies
+node_modules/
+frontend/node_modules/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+backend/venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE files
+.idea/
+.vscode/
+**/.idea/
+**/.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.sqlite3
+*.db
+
+# Dataset
+backend/dataset/
+dataset/
+
+# Generated output and media
+output/
+backend/media/uploads/
+backend/media/gradcam/
+
+# Large model and archive files
+*.h5
+*.pt
+*.pth
+*.keras
+*.zip
+
+# Operating system files
+.DS_Store
+Thumbs.db
